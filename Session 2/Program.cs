@@ -94,16 +94,16 @@
             #endregion
 
             #region Q10
-            int copies = 100;
+            //int copies = 100;
 
-            // Boxing
-            object obj = copies;
+            //// Boxing
+            //object obj = copies;
 
-            // Unboxing
-            int newCopies = (int)obj;
+            //// Unboxing
+            //int newCopies = (int)obj;
 
-            Console.WriteLine($"Original: {copies}");
-            Console.WriteLine($"Unboxed: {newCopies}");
+            //Console.WriteLine($"Original: {copies}");
+            //Console.WriteLine($"Unboxed: {newCopies}");
             #endregion
         }
     }
