@@ -14,6 +14,13 @@
             Console.WriteLine($"Book Title:{((Book)book).Title}, Pages:{((Book)book).Pages}");
             #endregion
 
+            #region Question02
+            Console.WriteLine(book.ToString());    //Session_2.Book
+            Console.WriteLine(book.Equals(book));  //True
+            Console.WriteLine(book.GetHashCode()); //37095509
+            Console.WriteLine(book.GetType());     //Session_2.Book
+            #endregion
+
         }
     }
 }
