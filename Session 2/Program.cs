@@ -30,21 +30,28 @@
             #endregion
 
             #region Q04
-            int ten = 10, zero = 0;
+            //int ten = 10, zero = 0;
 
-            try
-            {
-                int result = ten / zero;
-            }
-            catch (DivideByZeroException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Cannot divide by zero!");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try
+            //{
+            //    int result = ten / zero;
+            //}
+            //catch (DivideByZeroException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //    Console.WriteLine("Cannot divide by zero!");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+            #endregion
+
+            #region Q05
+            //int pages = 300;
+            //double pagesDouble = pages;  // int -> double happens implicitly
+
+            //Console.WriteLine(pagesDouble);
             #endregion
 
         }
