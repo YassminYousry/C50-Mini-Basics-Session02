@@ -54,6 +54,13 @@
             //Console.WriteLine(pagesDouble);
             #endregion
 
+            #region Q06     
+            double price = 49.99;
+            int priceInt = (int)price;
+
+            Console.WriteLine(priceInt);
+            #endregion
+
         }
     }
 }
