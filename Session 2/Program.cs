@@ -62,9 +62,27 @@
             #endregion
 
             #region Q07
-            string pagesText = "464";
-            int pages = Convert.ToInt32(pagesText);
-            Console.WriteLine(pages);
+            //string pagesText = "464";
+            //int pages = Convert.ToInt32(pagesText);
+            //Console.WriteLine(pages);
+            #endregion
+
+            #region Q08
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+
+            Console.WriteLine(year);
+
+            string badText = "abc";
+
+            if (int.TryParse(badText, out int newNumber))
+            {
+                Console.WriteLine(newNumber);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
             #endregion
 
         }
