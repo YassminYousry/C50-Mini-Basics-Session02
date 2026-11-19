@@ -9,16 +9,24 @@
     {
         static void Main(string[] args)
         {
-            #region Question01
-            object book = new Book { Title = ".NET", Pages = 444 };
-            Console.WriteLine($"Book Title:{((Book)book).Title}, Pages:{((Book)book).Pages}");
+            #region Q01
+            //object book = new Book { Title = ".NET", Pages = 444 };
+            //Console.WriteLine($"Book Title:{((Book)book).Title}, Pages:{((Book)book).Pages}");
             #endregion
 
-            #region Question02
-            Console.WriteLine(book.ToString());    //Session_2.Book
-            Console.WriteLine(book.Equals(book));  //True
-            Console.WriteLine(book.GetHashCode()); //37095509
-            Console.WriteLine(book.GetType());     //Session_2.Book
+            #region Q02
+            //Console.WriteLine(book.ToString());    //Session_2.Book
+            //Console.WriteLine(book.Equals(book));  //True
+            //Console.WriteLine(book.GetHashCode()); //37095509
+            //Console.WriteLine(book.GetType());     //Session_2.Book
+            #endregion
+
+            #region Q03
+            //int pages = "464";  // Compile-time error
+            //int pages = int.Parse("464");
+            ///OR
+            //string pagesText = "464";
+            //int pages = Convert.ToInt32(pagesText);
             #endregion
 
         }
