@@ -55,10 +55,16 @@
             #endregion
 
             #region Q06     
-            double price = 49.99;
-            int priceInt = (int)price;
+            //double price = 49.99;
+            //int priceInt = (int)price;
 
-            Console.WriteLine(priceInt);
+            //Console.WriteLine(priceInt);
+            #endregion
+
+            #region Q07
+            string pagesText = "464";
+            int pages = Convert.ToInt32(pagesText);
+            Console.WriteLine(pages);
             #endregion
 
         }
