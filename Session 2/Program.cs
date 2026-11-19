@@ -86,13 +86,25 @@
             #endregion
 
             #region Q09
-            int pages = 464;
-            string pagesText = pages.ToString();
+            //int pages = 464;
+            //string pagesText = pages.ToString();
 
-            Console.WriteLine(pagesText);
-            Console.WriteLine(pagesText.GetType());
+            //Console.WriteLine(pagesText);
+            //Console.WriteLine(pagesText.GetType());
             #endregion
 
+            #region Q10
+            int copies = 100;
+
+            // Boxing
+            object obj = copies;
+
+            // Unboxing
+            int newCopies = (int)obj;
+
+            Console.WriteLine($"Original: {copies}");
+            Console.WriteLine($"Unboxed: {newCopies}");
+            #endregion
         }
     }
 }
